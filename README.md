@@ -4,23 +4,13 @@
 
 ## Technologies Used
 
-### FrontEnd
-
 1. React Js
 2. React Router
 3. FireBase Authentication
 4. FireBase Database
 4. JWT Auth Token 
 4. Material UI
-6. Heroku
-
-### BackEnd
-
-1. Express Js
-2. Mongo DB
-3. Middleware (Cors, Body Parser)
-4. Heroku
-5. JWT Token for Authentication
+6. ServerLess
 
 ## Features:
 
