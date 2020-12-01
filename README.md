@@ -16,7 +16,7 @@
 
 1. Authentication
 2. Secured API
-3. Instant Messeging
+3. Instant Messaging
 4. Create User or Create Chat Room
 6. Custom built API
 7. Responsive
