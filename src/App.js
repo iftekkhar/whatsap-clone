@@ -2,9 +2,14 @@ import './App.css';
 import Chat from './Components/Chat';
 import Sidebar from './Components/Sidebar';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { createContext, useState } from 'react';
 import Login from './Components/Login';
+
+export const UserContext = createContext();
 const App = () => {
+  const [loggedInUser, setLoggedInUser] = useState({})
   return (
+    <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
       <div className="App">
         {loggedInUser.email ?
           <div className="app-body">
@@ -28,6 +33,7 @@ const App = () => {
         }
 
       </div>
+    </UserContext.Provider>
   );
 }
 
