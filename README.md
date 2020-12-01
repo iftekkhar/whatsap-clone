@@ -1,7 +1,7 @@
 # Instant Messaging App build with React JS & Firebase
 
 # Live Site : https://instant-messaging-app-ia.web.app/
-![Messaging App](https://www.iftekharanam.me/wp-content/uploads/2020/12/InShot_20201201_20045100178.gif)
+![Messaging App](https://www.iftekharanam.me/wp-content/uploads/2020/12/InShot-20201201-200451001.gif)
 
 ## Technologies Used
 
